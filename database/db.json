@@ -1,0 +1,154 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fast Food",
+      "description": "Quick and delicious fast food options."
+    },
+    {
+      "id": 2,
+      "name": "Healthy Food",
+      "description": "Nutritious and healthy food choices."
+    },
+    {
+      "id": 3,
+      "name": "Desserts",
+      "description": "Sweet treats and desserts."
+    },
+    {
+      "id": 4,
+      "name": "Beverages",
+      "description": "Refreshing drinks for every occasion."
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Cheeseburger",
+      "category": "Fast Food",
+      "ingredients": ["beef patty", "cheese", "lettuce", "tomato", "bun"],
+      "image": "https://i0.wp.com/rhubarbandcod.com/wp-content/uploads/2022/06/The-Classic-Cheeseburger-1.jpg?fit=665%2C475&ssl=1",
+      "price": 5.99
+    },
+    {
+      "id": 2,
+      "name": "French Fries",
+      "category": "Fast Food",
+      "ingredients": ["potatoes", "salt", "oil"],
+      "image": "https://www.thespruceeats.com/thmb/6Ijd0M6aeo2rDxbrwvZ-CUFtk44=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-homemade-french-fries-2215971-step-08-00f9e1627d0541a89ece39e2ec72bd7d.jpg",
+      "price": 2.49
+    },
+    {
+      "id": 3,
+      "name": "Pizza Margherita",
+      "category": "Fast Food",
+      "ingredients": ["cheese", "tomato", "basil", "dough"],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrAZhcqxPJqOSlFxCIwCS8XKhjy8DaAyN9Nw&s",
+      "price": 8.99
+    },
+    {
+      "id": 4,
+      "name": "Chicken Nuggets",
+      "category": "Fast Food",
+      "ingredients": ["chicken", "breading", "oil"],
+      "image": "https://www.allrecipes.com/thmb/Dw_WFOvCds43ksPxkrE60qxcwSk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-8849-HomemadeChickenNuggets-beauty-4x3-ca915ee936054272af1b506181923c7f.jpg",
+      "price": 4.99
+    },
+    {
+      "id": 5,
+      "name": "Hot Dog",
+      "category": "Desserts",
+      "ingredients": ["hot dog sausage", "bun", "mustard", "ketchup"],
+      "image": "https://static01.nyt.com/images/2024/06/28/multimedia/28GRILL-HOTDOGS-REX-cqwj/01GRILL-HOTDOGS-REX-cqwj-mediumSquareAt3X.jpg",
+      "price": 3.49
+    },
+    {
+      "id": 6,
+      "name": "Salad Bowl",
+      "category": "Healthy Food",
+      "ingredients": ["lettuce", "tomato", "cucumber", "avocado", "olive oil"],
+      "image": "https://media.istockphoto.com/id/500121583/vi/anh/b%C3%A1t-salad-tr%E1%BA%AFng.jpg?s=612x612&w=0&k=20&c=NNlRIn4MseYeWIyZs_gDaNFdR7HL6ldw1CR3LK6Kxgc=",
+      "price": 7.49
+    },
+    {
+      "id": 7,
+      "name": "Fruit Smoothie",
+      "category": "Desserts",
+      "ingredients": ["banana", "strawberry", "yogurt", "honey"],
+      "image": "https://www.vegkitchen.com/wp-content/uploads/2021/06/dragon-fruit-smoothie-4-of-10.jpg",
+      "price": 5.99
+    },
+    {
+      "id": 8,
+      "name": "Grilled Chicken Salad",
+      "category": "Healthy Food",
+      "ingredients": ["chicken breast", "lettuce", "tomato", "cucumber", "dressing"],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDXi56-1qqR7LMF7Ey9hDHXIwHOebwEPGy0w&s",
+      "price": 8.99
+    },
+    {
+      "id": 9,
+      "name": "Quinoa Bowl",
+      "category": "Healthy Food",
+      "ingredients": ["quinoa", "chickpeas", "spinach", "avocado", "lemon"],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc-YNKZPSg7xaMLMGTumf83_CQAK3gH6WBgw&s",
+      "price": 9.49
+    },
+    {
+      "id": 10,
+      "name": "Vegan Wrap",
+      "category": "Healthy Food",
+      "ingredients": ["wrap", "hummus", "spinach", "cucumber", "tomato"],
+      "image": "https://insanelygoodrecipes.com/wp-content/uploads/2022/04/Homemade-Vegan-Falafel-Wrap-with-Cheese-and-Avocados.jpg",
+      "price": 6.99
+    },
+    {
+      "id": 11,
+      "name": "Chocolate Cake",
+      "category": "Desserts",
+      "ingredients": ["flour", "cocoa powder", "sugar", "butter"],
+      "image": "https://www.hersheyland.com/content/dam/hersheyland/en-us/recipes/recipe-images/2-hersheys-perfectly-chocolate-chocolate-cake-recipe-hero.jpg",
+      "price": 3.99
+    },
+    {
+      "id": 12,
+      "name": "Ice Cream Sundae",
+      "category": "Desserts",
+      "ingredients": ["vanilla ice cream", "chocolate syrup", "cherry", "whipped cream"],
+      "image": "https://www.keep-calm-and-eat-ice-cream.com/wp-content/uploads/2022/08/Ice-cream-sundae-hero-11-500x500.jpg",
+      "price": 4.49
+    },
+    {
+      "id": 13,
+      "name": "Lemon Tart",
+      "category": "Beverages",
+      "ingredients": ["lemon", "sugar", "flour", "butter"],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz2zwW_sG7FPS-Oi_r0qWZcc5RUKD_bfxQVA&s",
+      "price": 5.99
+    },
+    {
+      "id": 14,
+      "name": "Brownies",
+      "category": "Beverages",
+      "ingredients": ["chocolate", "flour", "butter", "sugar"],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz2zwW_sG7FPS-Oi_r0qWZcc5RUKD_bfxQVA&s",
+      "price": 2.99
+    },
+    {
+      "id": 15,
+      "name": "Cupcakes",
+      "category": "Beverages",
+      "ingredients": ["flour", "sugar", "butter", "eggs"],
+      "image": "https://www.barleyandsage.com/wp-content/uploads/2023/02/mini-cupcakes-1200x1200-1.jpg",
+      "price": 1.99
+    },
+    {
+      "id": 16,
+      "name": "Lemonade",
+      "category": "Beverages",
+      "ingredients": ["lemon", "water", "sugar"],
+      "image": "https://i2.wp.com/lmld.org/wp-content/uploads/2022/04/Lemonade-4.jpg",
+      "price": 2.49
+    }
+  ]
+}
