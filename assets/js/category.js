@@ -2,7 +2,7 @@ import { Food__List } from "./Food_list.js";
 import { params } from "./params.js";
 import { fetchApi, menuCategory } from "./variable.js";
 
-fetchApi('https://raw.githubusercontent.com/TuanAnh-coder/FastFood/refs/heads/main/database/db.json/categories')
+fetchApi('https://raw.githubusercontent.com/TuanAnh-coder/FastFood/refs/heads/main/database/dbCategory.json')
     .then(data => {
         let htmls = "";
         data.forEach(element => {
