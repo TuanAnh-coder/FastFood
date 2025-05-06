@@ -2,7 +2,7 @@ import { params } from "./params.js";
 import { fetchApi, menuProduct } from "./variable.js";
 
 export function Food__List(){
-    fetchApi(`https://raw.githubusercontent.com/TuanAnh-coder/FastFood/refs/heads/main/database/db.json?category=${params.category}`)
+    fetchApi(`https://mocki.io/v1/268ac791-5cdf-4a57-ac3e-6eabbdbe9525?category=${params.category}`)
     .then(data => {
         let htmls = data.products.map(item => {
             return `<div class="product__item"><div class="product__image"><img src="${item.image}" alt=""></div>
