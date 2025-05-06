@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fast Food",
+      "description": "Quick and delicious fast food options."
+    },
+    {
+      "id": 2,
+      "name": "Healthy Food",
+      "description": "Nutritious and healthy food choices."
+    },
+    {
+      "id": 3,
+      "name": "Desserts",
+      "description": "Sweet treats and desserts."
+    },
+    {
+      "id": 4,
+      "name": "Beverages",
+      "description": "Refreshing drinks for every occasion."
+    }
+  ]
+}
