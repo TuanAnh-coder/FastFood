@@ -5,7 +5,7 @@ import { fetchApi, menuCategory } from "./variable.js";
 fetchApi('https://raw.githubusercontent.com/TuanAnh-coder/FastFood/refs/heads/main/database/dbCategory.json')
     .then(data => {
         let htmls = "";
-        data.forEach(element => {
+        data.categories.forEach(element => {
             htmls += `<div class="category__item">${element.name}</div>`
         });
         menuCategory.innerHTML = htmls;
