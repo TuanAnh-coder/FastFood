@@ -2,7 +2,7 @@ import { params } from "./params.js";
 import { fetchApi, menuProduct } from "./variable.js";
 
 export function Food__List(){
-    fetchApi(`./database/db.json/products?category=${params.category}`)
+    fetchApi(`./database/db.json?category=${params.category}`)
     .then(data => {
         let htmls = data.map(item => {
             return `<div class="product__item"><div class="product__image"><img src="${item.image}" alt=""></div>
