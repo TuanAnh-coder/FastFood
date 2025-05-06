@@ -2,7 +2,7 @@ import { Food__List } from "./Food_list.js";
 import { params } from "./params.js";
 import { fetchApi, menuCategory } from "./variable.js";
 
-fetchApi('https://mocki.io/v1/26c3314d-e38c-4c54-895c-0338d94e6553')
+fetchApi('https://dummyjson.com/c/bd14-8438-4772-b258')
     .then(data => {
         let htmls = "";
         data.categories.forEach(element => {
